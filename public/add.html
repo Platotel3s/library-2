@@ -15,23 +15,25 @@
             <form id="bookForm">
                 <div class="mb-3">
                     <label for="title" class="form-label">Judul</label>
-                    <input type="text" id="title" class="form-control" required>
+                    <input type="text" id="title" class="form-control" placeholder="Judul buku" required>
                 </div>
                 <div class="mb-3">
                     <label for="author" class="form-label">Penulis</label>
-                    <input type="text" id="author" class="form-control" required>
+                    <input type="text" id="author" class="form-control" placeholder="Penulis" required>
                 </div>
                 <div class="mb-3">
                     <label for="year" class="form-label">Tahun</label>
-                    <input type="number" id="year" class="form-control" required>
+                    <input type="number" id="year" class="form-control" placeholder="tahun, only number" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Tambah Buku</button>
-                <button type="reset" class="btn btn-danger">Reset</button>
+                <button type="reset" class="btn btn-warning">Reset</button>
             </form>
-            <a href="index.html" class="btn btn-success mt-4">Daftar Buku</a>
-        </div>
-        
+        </div>        
     </div>
+    <a href="index.html" class="btn btn-success mt-4">
+        <i class="fas fa-list"></i> Daftar buku
+    </a>
+
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
